@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.TheBand-head{
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+.TheBand-head-left div{
+    padding: 16px 24px;
+    text-transform: uppercase;
+    
+}
+.TheBand-head-left{
+    display: flex;
+}
+.TheBand-head-right{
+    padding: 16px 24px;
+}
+
+.TheBand-head-left-hover:hover{
+      background: #ccc;
+      color: black;
+}
+/* .TheBand-head:hover{
+    background: #ccc;
+      color: black;
+} */
+.TheBand-more{
+    position: relative;
+}
+.TheBand-more-list{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    color: black;
+    list-style: none;
+    display: none;
+
+}
+.TheBand-more-list li:hover {
+    background: #ccc;
+   
+}
+.TheBand-more-list li{
+    padding: 8px 12px;
+}
+.TheBand-more:hover .TheBand-more-list{
+    display: block;
+}
+.TheBand-banner img{
+    width: 100%;
+}
+.TheBand-banner{
+    position: relative;
+
+}
+.TheBand-baner-text{
+    width: 100%;
+   color: white;
+   position: absolute;
+   bottom: 30px;
+   text-align:center;
+   margin: auto;
+}
+.TheBand-baner-text h4{
+    
+    font-size: 30px;
+    margin: 15px 0;
+}
+.TheBand-baner-text p{
+    
+    margin: 10px 0;
+}
+.TheBand-about-main{
+    width: 65%;
+    margin: auto;
+    padding: 64px 16px;
+}
+.TheBand-about-main h1{
+    text-align:center;margin: 16px 0;font-size: 50px;
+}
+.TheBand-about-main p:nth-child(1){
+    text-align:center; margin: 16px 0; opacity: 0.6; font-size: 24px;
+}
+.TheBand-about-main p:nth-child(2){
+    font-size:20px ;
+}
+.TheBand-about-avatar{
+    display: flex;
+    justify-content: space-around;
+}
+.TheBand-about-avatar-list p{
+    text-align: center;
+    margin: 10px 0;
+}
+.TheBand-about-avatar-list img{
+    width: 100%;
+}
+.TheBand-tour{
+    background: black;
+}
+.TheBand-tour-main{
+    width: 65%;
+    margin: auto;
+    padding: 64px 16px;
+}
+.TheBand-tour-main h4{
+    text-align:center;margin: 16px 0;font-size: 50px; color: white;
+}
+#TheBand-tour-main-p{
+    text-align:center; 
+    margin: 16px 0; 
+    opacity: 0.6;
+     font-size:18px;
+      color: white;
+}
+.TheBand-september p{
+ display: inline-block;
+}
+.TheBand-tour-main-box {
+border: 1px solid white;
+margin: 20px 0;
+background: white;
+}
+.TheBand-tour-main-box div{
+    padding: 8px 16px;
+   
+}
+.TheBand-september{
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+
+}
+.TheBand-september p{
+    margin-right: 10px;
+    opacity: 0.8;
+}
+.TheBand-september span{
+    background: red;
+    color: white;
+    padding: 5px;
+}
+.TheBand-octember{
+    display: flex;
+    justify-content: space-between;
+}
+.TheBand-octember p{
+    opacity: 0.8;
+    font-size: 18px;
+}
+.TheBand-octember span{
+    padding: 0 5px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.TheBand-tour-main-address{
+    display: flex;
+    
+    justify-content: space-between;
+    font-size: 18px;
+}
+.TheBand-address{
+   width: 32%;
+   background: white;
+}
+.TheBand-address img{
+    width: 100%;
+}
+.TheBand-address h5{
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+#p{
+    opacity: 0.7;
+    margin: 15px 0;
+    
+}
+.TheBand-address button{
+    padding: 8px 12px;
+    margin: 10px 0;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+   
+}
+.TheBand-address-mini{
+    padding: 0 10px;
+}
+.TheBand-address button:hover{
+    background: #ccc;
+    color: black;
+}
+.TheBand-contact{
+    width: 65%;
+    margin: auto;
+    padding: 64px 16px;
+}
+.TheBand-contact h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.TheBand-contact-main-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.TheBand-contact-main-text p{
+    text-align:center;font-size:20px;opacity: 0.7;margin-bottom: 20px;
+}
+.TheBand-box-left p{
+    /* margin: 15px 0; */
+    padding: 0 15px 15px 10px;
+    font-size: 18px;
+}
+.TheBand-box-right{
+    width: 50%;
+}
+.TheBand-box-left span{
+    margin-left: 10px;
+}
+.TheBand-box-right input{
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 17px;
+}
+.TheBand-right-top {
+
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.TheBand-right-top input{
+    width: 47%;
+}
+.TheBand-contact-main-nut button{
+    padding: 16px 24px;
+    font-size: 16px;
+    background: black;
+    color: white;
+}
+.TheBand-contact-main-nut{
+    float: right;
+}
+.TheBand-end{
+    padding-top: 64px;
+}
+.TheBand-end img{
+    width: 100%;
+}
+.TheBand-end-link{
+    text-align: center;
+    margin: 60px 0;
+    color: #958f8f;
+}
+.TheBand-end-link button{
+    padding: 5px 6px;
+    color: #958f8f;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.TheBand-end-link p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.TheBand-head-mobie-main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.TheBand-head-mobie{
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.TheBand-head-mobie-main button{
+    padding: 8px 14px;
+    color: white;
+    background: black;
+    border: none;
+}
+
+.TheBand-list-mobie{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    
+}
+.TheBand-list-mobie li{
+    padding: 8px 12px;
+    width: 100vw;
+    /* background: black; */
+    text-align: left;
+   
+}
+.TheBand-head-mobie{
+    background: black;
+    color: white;
+}
+#home{
+    padding: 16px 24px;
+}
+#home:hover{
+    background: #ccc;
+    color: white ;
+}
+.TheBand-head-mobie-main button:hover{
+    background: #ccc;
+    color: white ;
+}
+.TheBand-head-mobie-bnt:hover ul{
+ display: block;
+}
+
+.TheBand-list-mobie{
+    background: #ccc;
+    color: black;
+    display: none;
+}
+/* .TheBand-head-mobie-main button:focus .list-mobie{
+    background: black;
+    color: white;
+    display: block;
+} */
+@media screen and (max-width:600px)
+{
+    .TheBand-baner-text{
+        display: none;
+    }
+    .TheBand-about-avatar {
+        display: block;
+    }
+    .TheBand-tour-main-address{
+        display: block;
+
+    }
+    .TheBand-address{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .TheBand-contact-main-box{
+        display: block;
+    }
+    .TheBand-right-top{
+        display: block;
+        
+
+    }
+    .TheBand-right-top input{
+        width: 100%;
+    }
+    .TheBand-right-bot{
+        margin-bottom:10px ;
+    }
+    .TheBand-tour-main {
+        width: 100%;
+    }
+    .TheBand-contact{
+        width: 100%;
+    }
+    .TheBand-about-main{
+        width: 100%;
+    }
+    .TheBand-head{
+        display: none;
+    }
+    .TheBand-head-mobie{
+        display: block;
+        width: 100%;
+
+
+    }
+    
+}

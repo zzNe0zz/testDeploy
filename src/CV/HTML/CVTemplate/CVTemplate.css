@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tong-head{
+
+    display: flex;
+    background-color: #f1f1f1;
+}
+.trai{
+    width: 40%;
+    /* border: 1px solid black; */
+    margin: 20px 15px;
+    height: 95%;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 20px 10px #f1f1f1;
+}
+.info img{
+   width: 100%;
+}
+.avatar{
+    position: relative;
+}
+.avatar h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+.thongtin{
+    display: flex;
+    margin: 15px 10px;
+}
+.thongtin p{
+    margin-left: 10px;
+}
+.tieude{
+    display: flex;
+    margin: 15px 10px;
+}
+.khoi{
+    width: 90%;
+    margin: 0 10px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    
+}
+.khoicon{
+    width: 90%;
+    background: blue;
+    text-align: center;
+    border-radius: 15px;
+}
+.khoicon1{
+    width: 80%;
+    background: blue;
+    text-align: center;
+    border-radius: 15px;
+}
+.khoicon2{
+    width: 75%;
+    background: blue;
+    text-align: center;
+    border-radius: 15px;
+}
+.khoicon3{
+    width: 50%;
+    background: blue;
+    text-align: center;
+    border-radius: 15px;
+}
+.tieude p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text {
+    margin: 15px 10px;
+}
+#English{
+    width: 100%;
+    background-color: blue;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+#Spanish{
+    width: 50%;
+    background-color: blue;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 15px;
+    /* margin: 20px 15px; */
+}
+#German{
+    width: 20%;
+    background-color: blue;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    
+}
+.kinhnghiem{
+    margin: 20px 15px;
+    border: 0.5px white solid;
+    background-color: white;
+    box-shadow: 10px 10px 20px 10px #f1f1f1;
+   
+}
+.head{
+    display: flex;
+    margin: 20px 15px;
+    font-size: 40px;
+}
+.head p{
+    margin-left: 20px;
+    color: #7e7575;
+}
+.head i{
+    color: #009688;
+}
+.main{
+    margin: 20px 15px;
+    border-bottom: 1px black solid;
+    
+}
+.main p{
+    margin: 15px 0;
+}
+.text-main{
+    font-size:25px;
+    color: #7e7575;
+}
+.main span{
+  margin-left: 15px;
+  font-size: 17px;
+  color: #009688;
+}
+.main i{
+    color: #009688;
+}
+#khung{
+border: 1px solid black;
+padding: 5px;
+background-color:#009688 ;
+color: white
+}
+#none{
+    border: none;
+}
+.hocvan{
+    margin: 20px 15px;
+    border: 0.5px white solid;
+    background-color: white;
+    box-shadow: 10px 10px 20px 10px #f1f1f1;
+}
+.bot{
+    text-align: center;
+    background-color: #009688;
+    border: 1px solid white;
+    color: white;
+}
+.bot p{
+    margin: 15px 0;
+}
+.bot i{
+    color: white;
+}

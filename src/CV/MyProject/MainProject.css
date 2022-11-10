@@ -1,0 +1,25 @@
+.MainProject{
+    background-color: #e1c3d3;
+    padding-top: 30px;
+}
+
+.bodyPJ-html-main{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.bodyPJ-html-card{
+   
+    width: 33%;
+    /* border: 1px solid black; */
+    padding: 16px 24px;
+}
+.bodyPJ-html-card img{
+    width: 100%;
+    /* padding: 16px 24px; */
+}
+.bodyPJ-html-card h4{
+    padding: 10px 5px;
+}
