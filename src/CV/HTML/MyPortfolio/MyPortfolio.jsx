@@ -13,11 +13,11 @@ function MyPortfolio() {
                 <p><i class="fa-solid fa-user"></i><span>ABOUT</span></p>
                 <p><i class="fa-solid fa-envelope"></i><span>CONTACT</span></p>
                 <p >
-                    <a href="http://google.com"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="http://google.com"><i class="fa-brands fa-twitch"></i></a>
-                    <a href="http://google.com"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="http://google.com"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="http://google.com"><i class="fa-brands fa-invision"></i></a>
+                    <a href="https://www.google.com.vn"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.google.com.vn"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="https://www.google.com.vn"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.google.com.vn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.google.com.vn"><i class="fa-brands fa-invision"></i></a>
                 </p>
             </div>
         </div>
@@ -36,11 +36,11 @@ function MyPortfolio() {
                                 <p><i class="fa-solid fa-user"></i><span>ABOUT</span></p>
                              <p><i class="fa-solid fa-envelope"></i><span>CONTACT</span></p>
                              <div className='left-main-mobie-bot'>
-                                <a href="http://google.com"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="http://google.com"><i class="fa-brands fa-twitch"></i></a>
-                                <a href="http://google.com"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="http://google.com"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="http://google.com"><i class="fa-brands fa-invision"></i></a>
+                                <a href="https://www.google.com.vn"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.google.com.vn"><i class="fa-brands fa-twitch"></i></a>
+                                <a href="https://www.google.com.vn"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.google.com.vn"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.google.com.vn"><i class="fa-brands fa-invision"></i></a>
                              </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@ function MyPortfolio() {
                     <div class="footer-main">
                         <h4>FOOTER</h4>
                         <p style={{textAlign:"justify" , fontSize: "14px"}}>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                        <p>Powered by <a href="http://google.com">w3.css</a></p>
+                        <p>Powered by <a href="http://google.com.vn">w3.css</a></p>
                     </div>
                     <div class="blog">
                         <h4>BLOG POSTS</h4>
@@ -275,7 +275,7 @@ function MyPortfolio() {
                     </div>
               </div>
               <div class="right-end">
-                  <p>Powered by <a href="http://google">w3.css</a></p>
+                  <p>Powered by <a href="http://google.com.vn">w3.css</a></p>
               </div>
               
         </div>

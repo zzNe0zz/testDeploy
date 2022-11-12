@@ -49,7 +49,7 @@ function Todolistbody() {
           }
           
           return(
-            <a style={{background:color}} > {_}</a>
+            <p style={{background:color}} > {_}</p>
           )
       }
     },
