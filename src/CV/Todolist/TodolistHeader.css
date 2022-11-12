@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .input-todo{
+        width: 50% !important;
+    }
+    .tb-todo {
+        width: 50% !important;
+    }
+}

@@ -35,7 +35,7 @@ export const counterSlice = createSlice({
         },
         success : (state  ,actions ) =>{
           state.todoList = state.todoList.map((value)=>{
-           console.log(actions);
+           
            if(value.id === actions.payload.id){
             value.decrepTion = true
            }

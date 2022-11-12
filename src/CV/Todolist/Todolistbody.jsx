@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import { useSelector,useDispatch } from 'react-redux'
 import {deleTodo,fixData,success} from "../Redux/slice"
 import {useState} from "react"
+import "./TodolistHeader.css"
 function Todolistbody() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [valueIndex,setValueIndex] = useState()
@@ -111,7 +112,10 @@ function Todolistbody() {
   return (
     <>  
         
-           <Table columns={columns} dataSource={dataTodo}  />
+          {
+            dataTodo.length !== 0 ?<Table columns={columns} dataSource={dataTodo} style={{width:"100%"}} className="tb-todo"/>:
+            <p style={{textAlign:"center",fontSize:"30px",fontWeight:"bold"}}>Nothing to do</p>
+          }
 
           <div>
        
