@@ -1,7 +1,7 @@
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import CVTemplate from "./CV/HTML/CVTemplate/CVTemplate";
 import CV from './CV/compunemt/CV';
-import MyPortfolio from "./CV/HTML/My Portfolio/MyPortfolio";
+import MyPortfolio from "./CV/HTML/MyPortfolio/MyPortfolio";
 import TheBand from "./CV/HTML/TheBand/TheBand";
 import MainProject from "./CV/MyProject/MainProject";
 import Todolist from "./CV/Todolist/Todolist";

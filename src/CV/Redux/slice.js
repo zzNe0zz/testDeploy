@@ -17,7 +17,7 @@ export const counterSlice = createSlice({
         },
         deleTodo : (state  ,actions ) => {
            
-          state.todoList = state.todoList.filter((value)=>{return value.id != actions.payload})
+          state.todoList = state.todoList.filter((value)=>{return value.id !== actions.payload})
           localStorage.setItem("todoList",JSON.stringify( state.todoList ))
         },
         fixData : (state  ,actions ) => {  
