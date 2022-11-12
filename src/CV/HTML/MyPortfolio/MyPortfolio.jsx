@@ -2,8 +2,8 @@ import React from 'react'
 import "./MyPortfolio.css"
 function MyPortfolio() {
   return (
-    <div>
-             <div class="Ne0">
+<>
+    <div class="Ne0">
         <div class="Ne0-left">
             <div class="left-main">
                 <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt=""/>
@@ -36,11 +36,11 @@ function MyPortfolio() {
                                 <p><i class="fa-solid fa-user"></i><span>ABOUT</span></p>
                              <p><i class="fa-solid fa-envelope"></i><span>CONTACT</span></p>
                              <div className='left-main-mobie-bot'>
-                                <a href="https://www.google.com.vn"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="https://www.google.com.vn"><i class="fa-brands fa-twitch"></i></a>
-                                <a href="https://www.google.com.vn"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="https://www.google.com.vn"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.google.com.vn"><i class="fa-brands fa-invision"></i></a>
+                                <a href="https://www.google.com.vn/"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.google.com.vn/"><i class="fa-brands fa-twitch"></i></a>
+                                <a href="https://www.google.com.vn/"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.google.com.vn/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.google.com.vn/"><i class="fa-brands fa-invision"></i></a>
                              </div>
                             </div>
                         </div>
@@ -99,20 +99,20 @@ function MyPortfolio() {
                 <nav aria-label="Page navigation example">
                 <ul class="pagination">
                   <li class="page-item">
-                    <a class="page-link" href="" aria-label="Previous">
+                    <a class="page-link" href="https://www.google.com.vn/" aria-label="Previous">
                       <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
                   <li class="page-item black" >
-                      <a  class="page-link " href="#" style={{background:"black" ,color: "white"}}>
+                      <a  class="page-link " href="https://www.google.com.vn/" style={{background:"black" ,color: "white"}}>
                         1
                     </a>
                      </li>
-                        <li class="page-item"><a class="page-link " href=" ">2</a></li>
-                        <li class="page-item"><a class="page-link " href=" ">3</a></li>
-                        <li class="page-item"><a class="page-link  " href=" ">4</a></li>
+                        <li class="page-item"><a class="page-link " href="https://www.google.com.vn/ ">2</a></li>
+                        <li class="page-item"><a class="page-link " href=" https://www.google.com.vn/">3</a></li>
+                        <li class="page-item"><a class="page-link  " href=" https://www.google.com.vn/">4</a></li>
                         <li class="page-item">
-                            <a class="page-link" href="" aria-label="Next">
+                            <a class="page-link" href="https://www.google.com.vn/" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                             </a>
                         </li>
@@ -226,7 +226,7 @@ function MyPortfolio() {
                     <div class="footer-main">
                         <h4>FOOTER</h4>
                         <p style={{textAlign:"justify" , fontSize: "14px"}}>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                        <p>Powered by <a href="http://google.com.vn">w3.css</a></p>
+                        <p>Powered by <a href="https://www.google.com.vn/">w3.css</a></p>
                     </div>
                     <div class="blog">
                         <h4>BLOG POSTS</h4>
@@ -275,7 +275,7 @@ function MyPortfolio() {
                     </div>
               </div>
               <div class="right-end">
-                  <p>Powered by <a href="http://google.com.vn">w3.css</a></p>
+                  <p>Powered by  <a href="https://www.google.com.vn/">w3.css</a> </p>
               </div>
               
         </div>
@@ -283,7 +283,7 @@ function MyPortfolio() {
         
     </div>
 
-    </div>
+</>
   )
 }
 
