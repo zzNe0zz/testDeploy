@@ -21,10 +21,17 @@
     border-top-left-radius: 30% ;
 }
 .Body-top-img{
-    width: 30%;
+    width: 20%;
 }
 .Body-top-text {
+    text-align: center;
     padding: 16px 24px;
+    width: 80%;
+}
+.Body-top-text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff881d;
 }
 .Body-top-text span{
     text-transform: uppercase;
@@ -139,11 +146,17 @@
     text-align: right;
 }
 .Body-top-text h3{
-    font-size: 10px;
+    font-size: 8px;
+}
+.Body-top-img img{
+    width: 100%;
 }
 .Body-mid-top-left{
     width: 100%;
     margin-bottom: 15px;
+}
+.Body-top-text{
+    padding: 0;
 }
 
   }

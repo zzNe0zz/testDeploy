@@ -12,9 +12,9 @@
 }
 .bodyPJ-html-card{
    
-    width: 33%;
+    width: 30%;
     /* border: 1px solid black; */
-    padding: 16px 24px;
+    padding: 16px 0px;
 }
 .bodyPJ-html-card img{
     width: 100%;
@@ -22,4 +22,18 @@
 }
 .bodyPJ-html-card h4{
     padding: 10px 5px;
+   
+}
+.hr{
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    height: 10px;
+    font-size: 50px;
+    color: red;
+    opacity: 2;
+}
+.bodyPJ-Reac-todolist h4{
+    text-align: left;
+    padding: 0;
 }

@@ -4,7 +4,8 @@ import CV from './CV/compunemt/CV';
 import MyPortfolio from "./CV/HTML/My Portfolio/MyPortfolio";
 import TheBand from "./CV/HTML/TheBand/TheBand";
 import MainProject from "./CV/MyProject/MainProject";
-import Todolist from "./CV/MyProject/Project/Todolist/Todolist";
+import Todolist from "./CV/Todolist/Todolist";
+
 function App() {
   return (
     <BrowserRouter>

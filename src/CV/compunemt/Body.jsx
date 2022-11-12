@@ -9,7 +9,7 @@ function Body() {
     <div className='Body'>
         <div className='Body-top'>
             <div className='Body-top-img'>
-                <img src="https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg" alt="" />
+                <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/61261441_1218097145035231_5890083497938255872_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=nNaOQsBeQCAAX8LROgT&_nc_ht=scontent.fhan2-4.fna&oh=00_AfByHzQk3Y-L2dX3rTiQdc4r5_KIzC31D-B2WtvpGv17qA&oe=63971395" alt="" />
             </div>
             <div className='Body-top-text'> 
                     <h3><span>Nguyễn</span> <span>Tiến</span> <span>Hoàng</span></h3>
@@ -60,8 +60,9 @@ function Body() {
                                 <span>Nhánh:hoang</span>
                             </p>
                             <p >Dự án cá nhân : <span style={{textDecoration:"underline",cursor:"pointer"}} onClick={()=>{nav("/MainProject")}}>My Project</span> <br />
-
+                                <span>Link github : <a href="https://github.com/zzNe0zz/testDeploy">https://github.com/zzNe0zz/testDeploy</a></span>
                             </p>
+                            
                         </div>
                 </div>
 
