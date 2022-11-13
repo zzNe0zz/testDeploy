@@ -4,9 +4,11 @@ function Footer() {
   return (
     <div className='FooterCV'>
         <p>
-          <span>Thank
-          For
-          Watching</span>
+          <span>Thank</span>
+
+         <span> For</span> 
+          
+          <span> Watching</span>
           
         </p>
         {/* <h1 contenteditable data-heading="Frozen">

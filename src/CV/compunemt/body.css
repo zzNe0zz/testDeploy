@@ -158,5 +158,9 @@
 .Body-top-text{
     padding: 0;
 }
+.Body-mid-top-right{
+    width: 100%;
+    margin: 0;
+}
 
   }

@@ -6,26 +6,54 @@
     font: 400 1em/1.5 "Neuton";
      background: #090d00; 
      color: rgba(255,255,255,.25); 
-     text-align: center; margin: 0
+     text-align: center; margin: 0;
+     
+}
+.FooterCV p {
+    padding: 16px 24px;
 }
 .FooterCV span {
     font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
     padding: .25em 0 .325em;
-    display: block;
+    
     margin: 0 auto;
     /* text-shadow: 0 0 80px rgba(255,255,255,.5); */
 
     background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; 
     background-clip: text;
     -webkit-text-fill-color: transparent;
     
     animation: aitf 80s linear infinite;
-    transform: translate3d(0,0,0);
-    backface-visibility: hidden;
+   transform: translate3d(0,0,0); 
+     backface-visibility: hidden; 
 }
 @keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
+}
+@keyframes mobie {
+    0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+@media screen and (max-width: 600px){
+    .FooterCV span{
+        font-size: 24px;
+       
+        -webkit-background-clip: unset ; 
+        background-clip: unset;
+        -webkit-text-fill-color: unset;
+        
+        animation: mobie 3s infinite ;
+             transform: unset; 
+        backface-visibility: initial; 
+        transform: none;
+        color: white;
+        padding: 0;
+        background-image: url("https://i.ytimg.com/vi/1C168xKCZSE/maxresdefault.jpg");
+    }
+    /* .FooterCV{
+        background-color: white;
+    } */
 }
