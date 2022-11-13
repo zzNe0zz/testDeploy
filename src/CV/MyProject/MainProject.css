@@ -1,14 +1,17 @@
 .MainProject{
-    background-color: #e1c3d3;
+    /* background-image: url();
     padding-top: 30px;
-    width: 100vw;
+    width: 100vw; */
 }
-
+.main{
+    background-image: url("https://i.ytimg.com/vi/RX0GdfJF3LA/maxresdefault.jpg");
+    animation: backGR 3s infinite ;
+}
 .bodyPJ-html-main{
     
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 25px;
 }
 .bodyPJ-html-card{
@@ -44,6 +47,21 @@
 .card{
     width: 240px
 }
+
+@keyframes backGR {
+    0%{
+        background-position-x: 50%; 
+        
+    }
+    25%{
+        background-position-x: 100% ; 
+    }
+    75% {background-position-x: -50% ;  };
+     
+    100% {background-position-x: 0% ;  };
+    
+}
+
 @media screen and (max-width: 600px)  {
  .bodyPJ-html-main{
     display: block;
@@ -59,5 +77,8 @@
  .bnt{
     text-align: center !important;
     padding: 16px 24px !important;
+ }
+ .main{
+    width: 100%;
  }
 }

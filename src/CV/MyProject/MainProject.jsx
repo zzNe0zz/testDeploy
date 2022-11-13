@@ -11,9 +11,9 @@ function MainProject() {
 
   return (
    <div className='MainProject'>
-    <div style={{width:"60%",margin:"auto",backgroundColor:"white"}} className="main">
+    <div style={{width:"100%",margin:"auto",backgroundColor:"white"}} className="main">
             <div style={{textAlign:"center"}}>
-              <h1>My Project</h1>
+              <h1 style={{ color:"white"}}>My Project</h1>
              
             </div>
             <div className='bodyPJ-html'>
