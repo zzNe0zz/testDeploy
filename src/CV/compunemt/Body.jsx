@@ -13,7 +13,7 @@ function Body() {
             </div>
             <div className='Body-top-text'> 
                     <h3><span>Nguyễn</span> <span>Tiến</span> <span>Hoàng</span></h3>
-                    <p>Front-end Intern</p>
+                    <p> Intern Front-end</p>
             </div>
         </div>
         <div className='Body-mid'>
