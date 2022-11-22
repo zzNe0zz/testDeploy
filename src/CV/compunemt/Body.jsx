@@ -9,7 +9,7 @@ function Body() {
     <div className='Body'>
         <div className='Body-top'>
             <div className='Body-top-img'>
-                <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/61261441_1218097145035231_5890083497938255872_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=nNaOQsBeQCAAX8LROgT&_nc_ht=scontent.fhan2-4.fna&oh=00_AfByHzQk3Y-L2dX3rTiQdc4r5_KIzC31D-B2WtvpGv17qA&oe=63971395" alt="" />
+                <img src="https://lh3.googleusercontent.com/a/ALm5wu1vZbXI0nerud76X757If0_W7hV_LaMdNtvKsqYtQ=s288-p-rw-no" alt="" />
             </div>
             <div className='Body-top-text'> 
                     <h3><span>Nguyễn</span> <span>Tiến</span> <span>Hoàng</span></h3>
