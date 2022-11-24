@@ -54,7 +54,7 @@ function Body() {
                             <p>Học và thực hành tại nodemy từ 5/2022</p>
                             <p>Dự án tham gia : <br />
                                 <span>Clone shopee bằng API : <a href="https://shope-b3.thaihm.site/">https://shope-b3.thaihm.site</a></span> <br />
-                                <span>Tham gia làm hearder và fillter sản phẩm theo tên,giá,hãng </span><br />
+                                <span>Tham gia làm header và fillter sản phẩm theo tên,giá,hãng </span><br />
                                 <span>bằng URL </span> <br />
                                 <span>Link git : <a href="https://github.com/thaihmcsp/b3-project">https://github.com/thaihmcsp/b3-project</a></span><br />
                                 <span>Nhánh:hoang</span>
