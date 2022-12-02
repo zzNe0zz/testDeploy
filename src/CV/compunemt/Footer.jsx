@@ -11,9 +11,7 @@ function Footer() {
           <span> Watching</span>
           
         </p>
-        {/* <h1 contenteditable data-heading="Frozen">
-          Frozen
-        </h1> */}
+       
     </div>
   )
 }
