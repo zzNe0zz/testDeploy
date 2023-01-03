@@ -4,7 +4,6 @@ import "./MainProject.css"
 import { useNavigate } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 function MainProject() {
   const { Meta } = Card;
  let nav =useNavigate()
@@ -13,10 +12,11 @@ function MainProject() {
    <div className='MainProject'>
       <div style={{width:"100%",margin:"auto",backgroundColor:"white"}} className="main">
               <div style={{textAlign:"center"}}>
-                <h1 style={{ color:"white"}}>My Project</h1>
+                <h1 style={{ color:"black"}}>My Project</h1>
               
               </div>
-              <div className='bodyPJ-html'>
+             <div style={{margin:"30px 60px"}}>
+             <div className='bodyPJ-html'>
                   <div ><h3>HTML/CSS</h3> </div>
                   <p>
                   <hr />
@@ -60,15 +60,15 @@ function MainProject() {
                 </div>
               </div>
               
-              <div className='bodyPJ-Reac'>
+              <div className='bodyPJ-Reac' style={{marginTop:"30px"}}>
                       <div ><h3>ReactJS</h3> </div>
-                      <p>
+                 <p>
                   <hr  className='hr' />
                 </p>
-                      <div style={{paddingTop:"15px"}}>
+                      <div style={{paddingTop:"15px"}} className="bodyPJ-Reac-item">
                           <div className='bodyPJ-Reac-todolist'>
                                 <Card hoverable style={{ width: 240,}} className="card"
-                                cover={<img alt="example" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/312358470_914993322805955_337605724562053215_n.png?stp=dst-png_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_ohc=ej5_wiaAKQsAX8RrChh&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdStLj4K66b0RJV2uUG2AKlBeEnvtg5OeXT2jDTn--Um6w&oe=6396CDA1" />} >
+                                cover={<img alt="example" src="https://i.postimg.cc/bvP04b1r/dasz.png" />} >
                                     <p><hr  className='hr' /></p>
                                       <h4 >Todolist</h4>
                                     <div>
@@ -92,11 +92,41 @@ function MainProject() {
                               </div>
                               </Card>
                           </div>
+
+                          <div className='bodyPJ-Reac-todolist'>
+                                <Card hoverable style={{ width: 240,}} className="card"
+                                cover={<img alt="example" src="https://i.postimg.cc/5x8FD67d/asdasdasfzxc.png" />} >
+                                    <p><hr  className='hr' /></p>
+                                      <h4 >AppMusic</h4>
+                                      <div>
+                                        <Meta  title=" Chức năng " style={{marginBottom:"10px"}} />
+                                    <ul>
+                                        <li>Các chức năng cơ bản audio </li>
+                                        
+                                    </ul>
+                                    </div>
+                                      <div>
+                                      <Meta  title=" Page sử dụng " style={{marginBottom:"10px"}} />
+                                      <ul>
+                                        <li>contex</li>
+                                        <li>Link git :<br /> <a href="https://github.com/zzNe0zz/Music">https://github.com/zzNe0zz/Music</a></li>
+                                      </ul>
+                                      </div>
+                              <div className='bnt'>
+                              <a href="https://cheery-granita-8bc2d4.netlify.app/"><Button variant="outline-primary" style={{fontSize:"18px",fontWeight:"bold"}}  >Demo</Button></a>
+                              </div>
+                              </Card>
+                          </div>
+
                       </div>
               </div>
 
+             </div>
+
       </div>
+     <div>
        
+     </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import MyPortfolio from "./CV/HTML/MyPortfolio/MyPortfolio";
 import TheBand from "./CV/HTML/TheBand/TheBand";
 import MainProject from "./CV/MyProject/MainProject";
 import Todolist from "./CV/Todolist/Todolist";
-
+import HomepageAnime from "./CV/Anime/Homepage/HomepageAnime";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +19,9 @@ function App() {
             <Route element={<CVTemplate></CVTemplate>} path="/MainProject/HTML/CVTemplate"> </Route>
             <Route element={<CVTemplate></CVTemplate>} path="/MainProject/HTML/CVTemplate"> </Route>
             <Route element={<Todolist></Todolist>} path="/MainProject/Todolist"> </Route>
+        </Routes>
+        <Routes>
+            <Route element={<HomepageAnime></HomepageAnime>} path="/anime"></Route>
         </Routes>
     </BrowserRouter>
   );

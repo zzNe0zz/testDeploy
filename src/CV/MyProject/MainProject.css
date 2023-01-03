@@ -82,3 +82,7 @@
     width: 100%;
  }
 }
+.bodyPJ-Reac-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
